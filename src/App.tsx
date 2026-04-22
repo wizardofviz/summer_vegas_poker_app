@@ -4,7 +4,7 @@ const TABLEAU_SCRIPT_ID = "tableau-embedding-api";
 const TABLEAU_SCRIPT_SRC =
   "https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js";
 const TABLEAU_VIZ_SRC =
-  "https://public.tableau.com/views/AGuidetothe2026SummerLasVegasPokerScene_app/2026SummerPoker?:showVizHome=no";
+  "https://public.tableau.com/views/AGuidetothe2026SummerLasVegasPokerScene/2026SummerPoker?:showVizHome=no";
 
 function useTableauScript() {
   const [ready, setReady] = useState(false);
